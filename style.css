@@ -1,4 +1,4 @@
-html {font-family: sans-serif;
+html {font-family: sans-serif;}
 
 body {
 	padding:2rem;
@@ -6,7 +6,7 @@ body {
 }
 p{
 	color:black;
-	font-family: Verdana, sans-serif;
+	font-family: 'fira sans', sans-serif;
 	font-size: 1rem;
 }
 
@@ -24,4 +24,4 @@ h3 {
 	color:darkslategrey;
 	font-size: 1rem;
 }
-}
+
