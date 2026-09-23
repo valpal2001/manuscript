@@ -1,4 +1,4 @@
-html {font-family: sans-serif;}
+html {font-family: 'fira sans', sans-serif;}
 
 body {
 	padding:2rem;
@@ -6,7 +6,7 @@ body {
 }
 p{
 	color:black;
-	font-family: 'fira sans', sans-serif;
+	font-family: serif;
 	font-size: 1rem;
 }
 
