@@ -1,4 +1,4 @@
-html {font-family: sans-serif;}
+html {font-family: sans-serif;
 
 body {
 	padding:2rem;
@@ -23,4 +23,5 @@ h2{
 h3 {
 	color:darkslategrey;
 	font-size: 1rem;
+}
 }
