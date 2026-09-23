@@ -6,7 +6,6 @@ body {
 }
 p{
 	color:black;
-	font-family: serif;
 	font-size: 1rem;
 }
 
@@ -25,3 +24,6 @@ h3 {
 	font-size: 1rem;
 }
 
+h6 {
+	font-size: 0.8rem;
+}
