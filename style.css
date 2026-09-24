@@ -11,7 +11,9 @@ p{
 
 h1 {
 	color: darkslategrey;
+	font-family: fantasy;
 	font-size: 2rem;
+	line-height: 2rem;
 }
 
 h2{
