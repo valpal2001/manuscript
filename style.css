@@ -2,6 +2,7 @@ html { font-family: 'Noto Serif', serif;}
 
 :root{
 	--base-type:1rem;
+	--brand-color: darkslategray;
 }
 body {
 	padding:2rem;
@@ -15,15 +16,16 @@ p{
 
 h1 {
 	color: darkslategrey;
-	font-size: calc(7*var(--base-type))
+	font-size: calc(7*--base-type);
+	font-size: 8rem;
 	 font-family: 'Dela Gothic One', sans-serif;
 	line-height: 6rem;
 }
 
 h2{
-	color: darkslategray;
+	color: var(--brand-color);
 	font-family: 'Dela Gothic One',sans-serif;
-	font-size: 2.5rem;
+	font-size: 1rem;
 	line-height: 200%;
 }
 
