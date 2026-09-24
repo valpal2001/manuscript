@@ -4,6 +4,7 @@ body {
 	padding:2rem;
 	margin-block-start: 1rem;
 }
+
 p{
 	color:black;
 	font-size: 1rem;
@@ -11,9 +12,9 @@ p{
 
 h1 {
 	color: darkslategrey;
-	font-size: 7rem;
+	font-size: 5rem;
 	 font-family: 'Dela Gothic One', sans-serif;
-line-height: 8rem;
+	line-height: 6rem;
 }
 
 h2{
