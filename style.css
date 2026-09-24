@@ -1,4 +1,4 @@
-html {font-family: 'fira sans', sans-serif;}
+html { font-family: 'Fira Sans', sans-serif;}
 
 body {
 	padding:2rem;
@@ -11,17 +11,17 @@ p{
 
 h1 {
 	color: darkslategrey;
-	font-family: fantasy;
-	font-size: 2rem;
-	line-height: 2rem;
+	font-size: 8rem;
+	font-family: 'DM Serif Display', serif;
+line-height: 8rem;
 }
 
 h2{
-	color: darkslategray;
+	color: black;
 	font-size: 1.5rem;
 }
 
 h3 {
-	color:darkslategrey;
+	color:black;
 	font-size: 1rem;
 }
