@@ -1,4 +1,4 @@
-html { font-family: 'Fira Sans', sans-serif;}
+html { font-family: 'Noto Serif', serif;}
 
 body {
 	padding:2rem;
@@ -11,17 +11,29 @@ p{
 
 h1 {
 	color: darkslategrey;
-	font-size: 8rem;
-	font-family: 'DM Serif Display', serif;
+	font-size: 7rem;
+	 font-family: 'Dela Gothic One', sans-serif;
 line-height: 8rem;
 }
 
 h2{
-	color: black;
-	font-size: 1.5rem;
+	color: darkslategray;
+	font-family: 'Dela Gothic One',sans-serif;
+	font-size: 2.5rem;
+	line-height: 200%;
 }
 
 h3 {
 	color:black;
+	font-size: 1.5rem;
+}
+
+h4{
+	color: darkslategray;
 	font-size: 1rem;
+}
+h5{
+  font-style: italic;
+  font-size: 1rem;
+  font-weight: 300;
 }
