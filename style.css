@@ -2,24 +2,28 @@ html { font-family: 'Noto Serif', serif;}
 
 :root{
 	--base-type:1rem;
+	--base-font:'Noto Serif', serif;
 	--brand-color: darkslategray;
+	--spacing:1rem;
 }
+
 body {
-	padding:2rem;
 	margin-block-start: 1rem;
 }
 
 p{
 	color:black;
+	padding:8rem;
 	font-size: 1rem;
 }
 
 h1 {
-	color: darkslategrey;
-	font-size: calc(7*--base-type);
+	color: var(--brand-color);
+	font-size: calc(6*--base-type);
 	font-size: 8rem;
 	 font-family: 'Dela Gothic One', sans-serif;
-	line-height: 6rem;
+	 line-height: 120%;
+
 }
 
 h2{
