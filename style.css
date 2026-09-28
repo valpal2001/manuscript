@@ -51,3 +51,9 @@ h5{
   font-size: 1rem;
   font-weight: 300;
 }
+
+mark {
+  background-color: skyblue;
+  color: black;
+  font-style: italic;
+}
