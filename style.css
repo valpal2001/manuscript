@@ -23,9 +23,8 @@ p{
 
 h1 {
 	color: var(--brand-color);
-	font-size: calc(6*--base-type);
 	font-size: 8rem;
-	 font-family: 'Dela Gothic One', sans-serif;
+	font-family: 'Dela Gothic One', sans-serif;
 	 line-height: 120%;
 
 }
@@ -33,13 +32,12 @@ h1 {
 h2{
 	color: var(--brand-color);
 	font-family: 'Dela Gothic One',sans-serif;
-	font-size: 1rem;
-	line-height: 200%;
+	font-size: 1.5rem;
 }
 
 h3 {
 	color:black;
-	font-size: 1.5rem;
+	font-size: 1rem;
 }
 
 h4{
@@ -60,4 +58,14 @@ mark {
 
 b.author{
 	color: var(--brand-color);
+}
+
+.bold-start {
+  font-size: 4rem;
+  font-family: 'Dela Gothic One', sans-serif;
+  display:block;
+  text-align: right;
+
+.sentence-start {
+color:tomato;
 }
