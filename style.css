@@ -23,7 +23,7 @@ p{
 
 h1 {
 	color: var(--brand-color);
-	font-size: 8rem;
+	font-size: calc(6.5*var(--base-type));
 	font-family: 'Dela Gothic One', sans-serif;
 	 line-height: 120%;
 
@@ -65,7 +65,10 @@ b.author{
   font-family: 'Dela Gothic One', sans-serif;
   display:block;
   text-align: right;
+}
 
-.sentence-start {
-color:tomato;
+strong.sentence {
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: var(--brand-color);
 }
