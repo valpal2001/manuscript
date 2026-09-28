@@ -5,6 +5,7 @@ html { font-family: 'Noto Serif', serif;}
 	--base-font:'Noto Serif', serif;
 	--brand-color: darkslategray;
 	--spacing:1rem;
+	padding: 2rem;
 }
 
 body {
@@ -14,6 +15,7 @@ body {
 
 #ABSTRACT {
   	background-color: #f9f9f9;
+	padding: 2rem;
 }
 
 p{
@@ -23,7 +25,7 @@ p{
 
 h1 {
 	color: var(--brand-color);
-	font-size: calc(6.5*var(--base-type));
+	font-size: calc(6*var(--base-type));
 	font-family: 'Dela Gothic One', sans-serif;
 	 line-height: 120%;
 
@@ -32,7 +34,7 @@ h1 {
 h2{
 	color: var(--brand-color);
 	font-family: 'Dela Gothic One',sans-serif;
-	font-size: 1.5rem;
+	font-size: 1.2rem;
 }
 
 h3 {
@@ -44,6 +46,7 @@ h4{
 	color: darkslategray;
 	font-size: 1rem;
 }
+
 h5{
   font-style: italic;
   font-size: 1rem;
@@ -51,8 +54,8 @@ h5{
 }
 
 mark {
-  background-color: skyblue;
-  color: black;
+  background-color: whitesmoke;
+  color: skyblue;
   font-style: italic;
 }
 
