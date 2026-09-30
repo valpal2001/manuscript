@@ -6,8 +6,8 @@ html { font-family: 'Noto Serif', serif;}
 	--brand-color: darkslategray;
 	--spacing:1rem;
 	padding: 10rem;
-	 --link-color: darkslategray;
-	 --link-visited-color: cadetblue;
+	 --link-color: deeppink;
+	 --link-visited-color: lawngreen;
 	 line-height: 180%;
 }
 
@@ -88,4 +88,12 @@ strong.sentence {
   font-weight: 700;
   font-size: 1.5rem;
   color: var(--brand-color);
+}
+
+a:link {
+	color: var(--link-color);
+}
+
+a:visited {
+	color: var(--link-visited-color);
 }
