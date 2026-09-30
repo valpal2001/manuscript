@@ -76,7 +76,7 @@ mark {
 }
 
 b.author{
-	color: var(--brand-color);
+	color: cadetblue;
 }
 
 .bold-start {
@@ -89,6 +89,7 @@ strong.sentence {
   font-size: 1.5rem;
   color: var(--brand-color);
 }
+
 
 a:link {
 	color: var(--link-color);
