@@ -97,3 +97,14 @@ a:link {
 a:visited {
 	color: var(--link-visited-color);
 }
+
+#response-title{
+	 font-family: 'Gravitas One', serif;
+	 border-top: 2px solid var(--brand-color);
+	 margin-top: 5rem;
+	 padding-top: 3rem;
+}
+
+#bibliography{
+	line-height: 180%;
+}
