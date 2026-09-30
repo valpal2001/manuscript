@@ -93,12 +93,18 @@ mark {
   font-style: italic;
 }
 
+em{
+	font-style: italic;
+}
+strong{
+	font-weight: 900;
+}
 b.author{
 	color: cadetblue;
 }
 
 .bold-start {
-  font-size: 4rem;
+  font-size: calc(3*var(--base-type));
   font-family: 'Dela Gothic One', sans-serif;
 }
 
@@ -132,6 +138,8 @@ a:visited {
 
 #key-words{
 	font-style: italic;
+	font-size: calc(1.2*var(--base-type));
+	font-weight: 700;
 	margin-bottom: 2rem;
 }
 #bibliography{
