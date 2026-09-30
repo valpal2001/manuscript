@@ -16,8 +16,8 @@ body {
 	padding: 3rem;
 }
 
-#ABSTRACT {
-  	background-color: #f8f8f8;
+#abstract {
+  	background-color: #ebebeb;
 	padding: 4rem;
 }
 
@@ -70,7 +70,7 @@ h5{
 }
 
 mark {
-  background-color: whitesmoke;
+  background-color: #ebebeb;
   color: skyblue;
   font-style: italic;
 }
