@@ -48,7 +48,7 @@ h2{
 	font-size: calc(4*var(--base-type));
 	line-height: 130%;
 	text-align: right;
-	padding: 2rem;
+	margin: 2rem;
 }
 
 h3 {
@@ -76,6 +76,11 @@ h5{
 	font-size: calc(5*var(--base-type));
 }
 
+blockquote {
+	padding: 2rem;
+	font-weight: 800;
+}
+
 mark {
   background-color: #ebebeb;
   color: skyblue;
@@ -92,11 +97,17 @@ b.author{
 }
 
 strong.sentence {
-  font-weight: 700;
-  font-size: 1.5rem;
+  font-weight: 900;
+  font-size: calc(2*var(--base-type));
   color: var(--brand-color);
 }
 
+#blockquote{
+text-align: center;
+color: var(--brand-color);
+font-size: calc(2*var(--base-type));
+line-height: 150%;
+}
 
 a:link {
 	color: var(--link-color);
@@ -113,6 +124,10 @@ a:visited {
 	 padding-top: 3rem;
 }
 
+#key-words{
+	font-style: italic;
+	margin-bottom: 2rem;
+}
 #bibliography{
 	line-height: 180%;
 	list-style-type: decimal;
