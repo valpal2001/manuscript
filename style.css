@@ -6,6 +6,8 @@ html { font-family: 'Noto Serif', serif;}
 	--brand-color: darkslategray;
 	--spacing:1rem;
 	padding: 2rem;
+	 --link-color: darkslategray;
+	 --link-visited-color: cadetblue;
 }
 
 body {
@@ -31,6 +33,11 @@ h1 {
 
 }
 
+#conference {
+	border-top: 2px solid var(--brand-color);
+	border-bottom: 2px solid var(--brand-color);
+}
+
 h2{
 	color: var(--brand-color);
 	font-family: 'Dela Gothic One',sans-serif;
@@ -52,6 +59,11 @@ h5{
   font-size: 1rem;
   font-weight: 300;
 }
+
+#abstract-title {
+	font-family: serif;
+	font-style: italic;
+	font-size: calc(3*var(--base-type));
 
 mark {
   background-color: whitesmoke;
