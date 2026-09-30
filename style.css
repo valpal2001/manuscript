@@ -67,6 +67,7 @@ h5{
 	font-family: serif;
 	font-style: italic;
 	font-size: calc(5*var(--base-type));
+}
 
 mark {
   background-color: whitesmoke;
@@ -81,7 +82,6 @@ b.author{
 .bold-start {
   font-size: 4rem;
   font-family: 'Dela Gothic One', sans-serif;
-  text-align: center;
 }
 
 strong.sentence {
