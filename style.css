@@ -5,9 +5,10 @@ html { font-family: 'Noto Serif', serif;}
 	--base-font:'Noto Serif', serif;
 	--brand-color: darkslategray;
 	--spacing:1rem;
-	padding: 2rem;
+	padding: 10rem;
 	 --link-color: darkslategray;
 	 --link-visited-color: cadetblue;
+	 line-height: 180%;
 }
 
 body {
@@ -16,8 +17,8 @@ body {
 }
 
 #ABSTRACT {
-  	background-color: #f9f9f9;
-	padding: 2rem;
+  	background-color: #f8f8f8;
+	padding: 4rem;
 }
 
 p{
@@ -41,7 +42,9 @@ h1 {
 h2{
 	color: var(--brand-color);
 	font-family: 'Dela Gothic One',sans-serif;
-	font-size: 1.2rem;
+	font-size: calc(4*var(--base-type));
+	line-height: 130%;
+	text-align: right;
 }
 
 h3 {
@@ -63,7 +66,7 @@ h5{
 #abstract-title {
 	font-family: serif;
 	font-style: italic;
-	font-size: calc(3*var(--base-type));
+	font-size: calc(5*var(--base-type));
 
 mark {
   background-color: whitesmoke;
@@ -78,8 +81,7 @@ b.author{
 .bold-start {
   font-size: 4rem;
   font-family: 'Dela Gothic One', sans-serif;
-  display:block;
-  text-align: right;
+  text-align: center;
 }
 
 strong.sentence {
