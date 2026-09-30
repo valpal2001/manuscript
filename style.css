@@ -5,7 +5,7 @@ html { font-family: 'Noto Serif', serif;}
 	--base-font:'Noto Serif', serif;
 	--brand-color: darkslategray;
 	--spacing:1rem;
-	padding: 10rem;
+	padding: 0 10rem 10rem 10rem;
 	 --link-color: deeppink;
 	 --link-visited-color: lawngreen;
 	 line-height: 180%;
