@@ -35,6 +35,9 @@ h1 {
 }
 
 #conference {
+	padding: 1rem;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
 	border-top: 2px solid var(--brand-color);
 	border-bottom: 2px solid var(--brand-color);
 }
@@ -45,15 +48,19 @@ h2{
 	font-size: calc(4*var(--base-type));
 	line-height: 130%;
 	text-align: right;
+	padding: 2rem;
 }
 
 h3 {
-	color:black;
-	font-size: 1rem;
+	color:var(--brand-color);
+	font-family: 'Dela Gothic One', sans-serif;
+	font-size: var(--base-type);
 }
 
 h4{
-	color: darkslategray;
+	color: black;
+	font-family: 'Noto Serif', serif;
+	font-style: italic;
 	font-size: 1rem;
 }
 
@@ -64,7 +71,7 @@ h5{
 }
 
 #abstract-title {
-	font-family: serif;
+	font-family: 'Noto Serif', serif;
 	font-style: italic;
 	font-size: calc(5*var(--base-type));
 }
@@ -108,4 +115,5 @@ a:visited {
 
 #bibliography{
 	line-height: 180%;
+	list-style-type: decimal;
 }
