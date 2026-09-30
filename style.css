@@ -19,10 +19,12 @@ body {
 #abstract {
   	background-color: #ebebeb;
 	padding: 4rem;
+	padding-bottom: 8rem;
 }
 
 p{
 	color:black;
+	font-family: 'Noto Serif',serif;
 	font-size: 1rem;
 }
 
