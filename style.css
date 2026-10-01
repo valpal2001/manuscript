@@ -13,7 +13,6 @@ html { font-family: 'Noto Serif', serif;}
 }
 
 body {
-	margin-block-start: 1rem;
 	padding: 3rem;
 
 }
@@ -22,6 +21,14 @@ small {
   font-size: 0.8rem;
   font-weight: 700;
 }
+
+em{
+	font-style: italic;
+}
+strong{
+	font-weight: 900;
+}
+
 p{
 	color:black;
 	font-family: 'Noto Serif',serif;
@@ -121,7 +128,6 @@ padding: 0.5rem;
 position: sticky;
 inset-inline-end: 0;
 top: 2rem;
-border-radiust;
 text-align: right;
 display: inline-block;
 margin-left: 0.5rem;
@@ -147,12 +153,6 @@ blockquote {
 	padding-top: 2rem;
 }
 
-em{
-	font-style: italic;
-}
-strong{
-	font-weight: 900;
-}
 
 strong.numerical{
 	font-family: 'Noto Serif',serif;
@@ -163,10 +163,6 @@ strong.numerical{
 	padding: 2rem;
 	padding-left: 0;
 }
-.bold-start {
-  font-size: calc(3*var(--base-type));
-  font-family: 'Dela Gothic One', sans-serif;
-}
 
 strong.sentence {
   font-weight: 900;
@@ -174,13 +170,22 @@ strong.sentence {
   color: var(--brand-color);
 }
 
-
 a:link {
 	color: var(--link-color);
 }
 
 a:visited {
 	color: var(--link-visited-color);
+}
+
+#institution {
+	font-style: italic;
+	font-weight: 800;
+	color: seagreen;
+}
+
+ol {
+  list-style-position: inside;
 }
 
 #response-title{
@@ -195,23 +200,16 @@ a:visited {
 	margin-top: 8rem;
 }
 
-#institution {
-	font-style: italic;
-	font-weight: 800;
-	color: seagreen;
-}
-
 #key-words{
 	font-style: italic;
 	font-size: calc(1.2*var(--base-type));
 	font-weight: 700;
 	margin-bottom: 2rem;
 }
+
 #bibliography{
 	line-height: 180%;
 	list-style-type: decimal;
 }
 
-ol {
-  list-style-position: inside;
-}
+
