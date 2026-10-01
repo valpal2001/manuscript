@@ -48,7 +48,7 @@ h1 {
 h2{
 	color: var(--brand-color);
 	font-family: 'Dela Gothic One',sans-serif;
-	font-size: calc(4*var(--base-type));
+	font-size: calc(5*var(--base-type));
 	line-height: 115%;
 	text-align: right;
 	margin: 2rem;
@@ -160,7 +160,7 @@ strong.numerical{
 	font-size: calc(1.2*var(--title-type));
 	display: block;
 	text-align: left;
-	padding: 3rem;
+	padding: 2rem;
 }
 .bold-start {
   font-size: calc(3*var(--base-type));
@@ -186,12 +186,12 @@ a:visited {
 	 font-family: 'Gravitas One', serif;
 	 margin-top: 5rem;
 	 margin-bottom: 3rem;
-	 padding-top: 3rem;
 }
 
 #my-response {
 	background-color: #ebebeb;
-	margin: 1rem;
+	padding: 2rem;
+	margin-top: 8rem;
 }
 
 #institution {
