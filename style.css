@@ -6,7 +6,7 @@ html { font-family: 'Noto Serif', serif;}
 	--base-font:'Noto Serif', serif;
 	--brand-color: darkslategray;
 	--spacing:1rem;
-	padding: 0 10rem 10rem 10rem;
+	padding: 0rem 10rem 10rem 10rem;
 	 --link-color: deeppink;
 	 --link-visited-color: lawngreen;
 	 line-height: 180%;
@@ -26,9 +26,12 @@ p{
 	color:black;
 	font-family: 'Noto Serif',serif;
 	font-size: 1rem;
-
+	padding:1rem;
 }
 
+p.indent{
+	text-indent: 5em;
+}
 h1 {
 	color: var(--brand-color);
 	font-size: calc(var(--title-type));
@@ -145,7 +148,10 @@ strong{
 strong.numerical{
 	font-family: 'Noto Serif',serif;
 	font-style: italic;
-	font-size: calc(var(--title-type));
+	font-size: calc(1.2*var(--title-type));
+	display: block;
+	text-align: left;
+	padding: 3rem;
 }
 .bold-start {
   font-size: calc(3*var(--base-type));
