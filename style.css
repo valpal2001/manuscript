@@ -92,12 +92,13 @@ h5{
 	margin-bottom: 2rem;
 	z-index: 1000;
 	max-width: max-content;
-	padding-bottom: 1rem;
+padding-bottom: 1rem;
 
 }
 
 .cta-button{
 font-family: 'Dela Gothic One',sans-serif;
+font-size: rem;
 line-height: 450%;
 color: cadetblue;
 --link-color:cadetblue;
