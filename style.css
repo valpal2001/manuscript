@@ -161,6 +161,7 @@ strong.numerical{
 	display: block;
 	text-align: left;
 	padding: 2rem;
+	padding-left: 0;
 }
 .bold-start {
   font-size: calc(3*var(--base-type));
