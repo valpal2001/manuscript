@@ -14,6 +14,7 @@ html { font-family: 'Noto Serif', serif;}
 body {
 	margin-block-start: 1rem;
 	padding: 3rem;
+
 }
 
 #abstract {
@@ -82,22 +83,39 @@ h5{
 	font-size: calc(5*var(--base-type));
 
 }
+.sticky-button-group {
+	position: sticky;
+	top: 2rem;
+	margin-left: auto;
+	background-color: rgba(255, 255, 255, 0.85);
+	fill-opacity: 50%;
+	margin-bottom: 2rem;
+	z-index: 1000;
+	max-width: max-content;
+	padding-bottom: 1rem;
 
-#cta-button{
+}
+
+.cta-button{
 font-family: 'Dela Gothic One',sans-serif;
-border: 0.5rem;
-border-style: double;
-background-color: cadetblue;
---link-visited-color:darkslategray;
+line-height: 450%;
+color: cadetblue;
+--link-color:cadetblue;
+--link-visited-color: cadetblue;
 padding: 0.5rem;
 position: sticky;
 inset-inline-end: 0;
-margin-bottom: 2rem;
 top: 2rem;
-border-radius: 0.5rem 1rem;
+border-radiust;
+text-align: right;
+display: inline-block;
+margin-left: 0.5rem;
+border-bottom: 0.2rem solid cadetblue;
 }
 
-padding: 1rem;}
+
+
+
 b.author{
 	color: cadetblue;
 	font-size: 1.1rem;
