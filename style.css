@@ -14,7 +14,7 @@ html { font-family: 'Noto Serif', serif;}
 
 body {
 	padding: 3rem;
-
+	margin-block-start:2rem;
 }
 
 small {
@@ -27,6 +27,28 @@ em{
 }
 strong{
 	font-weight: 900;
+}
+
+strong.sentence {
+	font-weight: 900;
+	font-size: calc(2*var(--base-type));
+	color: var(--brand-color);
+}
+
+strong.numerical{
+	font-family: 'Noto Serif',serif;
+	font-style: italic;
+	font-size: calc(1.2*var(--title-type));
+	display: block;
+	text-align: left;
+	padding: 2rem;
+	padding-left: 0;
+}
+
+b.author{
+	color: cadetblue;
+	font-size: 1.1rem;
+	font-weight: 700;
 }
 
 p{
@@ -99,6 +121,7 @@ h5{
 	font-size: calc(5*var(--base-type));
 
 }
+
 .sticky-button-group {
 	position: sticky;
 	top: 2rem;
@@ -113,25 +136,25 @@ h5{
 	margin-bottom: 2rem;
 	z-index: 1000;
 	max-width: max-content;
-padding-bottom: 1rem;
+	padding-bottom: 1rem;
 /*To be super honest: I don't know what the "correct" z-index number is, it is  1000 because it was the smallest number that made the nav bar actually work? I know the number represents the order of priority in which content is displayed but I don't actually know what 1000 means or why it worked*/
 }
 
 .cta-button{
-font-family: 'Dela Gothic One',sans-serif;
-font-size: var(--base-type);
-line-height: 450%;
-color: cadetblue;
---link-color:cadetblue;
---link-visited-color: cadetblue;
-padding: 0.5rem;
-position: sticky;
-inset-inline-end: 0;
-top: 2rem;
-text-align: right;
-display: inline-block;
-margin-left: 0.5rem;
-border-bottom: 0.2rem solid cadetblue;
+	font-family: 'Dela Gothic One',sans-serif;
+	font-size: var(--base-type);
+	line-height: 450%;
+	color: cadetblue;
+	--link-color:cadetblue;
+	--link-visited-color: cadetblue;
+	padding: 0.5rem;
+	position: sticky;
+	inset-inline-end: 0;
+	top: 2rem;
+	text-align: right;
+	display: inline-block;
+	margin-left: 0.5rem;
+	border-bottom: 0.2rem solid cadetblue;
 }
 
 .back-to-top {
@@ -150,12 +173,6 @@ border-bottom: 0.2rem solid cadetblue;
 	margin: 0 auto;
 }
 
-b.author{
-	color: cadetblue;
-	font-size: 1.1rem;
-	font-weight: 700;
-}
-
 blockquote {
 	padding: 5rem;
 	font-weight: 700;
@@ -170,21 +187,6 @@ blockquote {
 }
 
 
-strong.numerical{
-	font-family: 'Noto Serif',serif;
-	font-style: italic;
-	font-size: calc(1.2*var(--title-type));
-	display: block;
-	text-align: left;
-	padding: 2rem;
-	padding-left: 0;
-}
-
-strong.sentence {
-  font-weight: 900;
-  font-size: calc(2*var(--base-type));
-  color: var(--brand-color);
-}
 
 a:link {
 	color: var(--link-color);
@@ -201,7 +203,7 @@ a:visited {
 }
 
 ol {
-  list-style-position: inside;
+	list-style-position: inside;
 }
 
 #response-title{
