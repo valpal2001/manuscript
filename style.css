@@ -2,6 +2,7 @@ html { font-family: 'Noto Serif', serif;}
 
 :root{
 	--base-type:1rem;
+	--title-type:6rem;
 	--base-font:'Noto Serif', serif;
 	--brand-color: darkslategray;
 	--spacing:1rem;
@@ -17,11 +18,6 @@ body {
 
 }
 
-#abstract {
-  	background-color: #ebebeb;
-	padding: 2rem 6rem 6rem;
-}
-
 small {
   font-size: 0.8rem;
   font-weight: 700;
@@ -35,18 +31,9 @@ p{
 
 h1 {
 	color: var(--brand-color);
-	font-size: calc(6*var(--base-type));
+	font-size: calc(var(--title-type));
 	font-family: 'Dela Gothic One', sans-serif;
 	 line-height: 120%;
-
-}
-
-#conference {
-	padding: 1rem;
-	margin-top: 2rem;
-	margin-bottom: 2rem;
-	border-top: 2px solid var(--brand-color);
-	border-bottom: 2px solid var(--brand-color);
 }
 
 h2{
@@ -77,6 +64,20 @@ h5{
   font-weight: 300;
 }
 
+
+#conference {
+	padding: 1rem;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	border-top: 2px solid var(--brand-color);
+	border-bottom: 2px solid var(--brand-color);
+}
+
+#abstract {
+  	background-color: #ebebeb;
+	padding: 2rem 6rem 6rem;
+}
+
 #abstract-title {
 	font-family: 'Noto Serif', serif;
 	font-style: italic;
@@ -93,7 +94,7 @@ h5{
 	z-index: 1000;
 	max-width: max-content;
 padding-bottom: 1rem;
-
+/*To be super honest: I don't know what the "correct" z-index number is, it is  1000 because it was the smallest number that made the nav bar actually work? I know the number represents the order of priority in which content is displayed but I don't actually know what 1000 means or why it worked*/
 }
 
 .cta-button{
@@ -113,9 +114,6 @@ display: inline-block;
 margin-left: 0.5rem;
 border-bottom: 0.2rem solid cadetblue;
 }
-
-
-
 
 b.author{
 	color: cadetblue;
@@ -137,7 +135,6 @@ blockquote {
 	padding-top: 2rem;
 }
 
-
 em{
 	font-style: italic;
 }
@@ -145,7 +142,11 @@ strong{
 	font-weight: 900;
 }
 
-
+strong.numerical{
+	font-family: 'Noto Serif',serif;
+	font-style: italic;
+	font-size: calc(var(--title-type));
+}
 .bold-start {
   font-size: calc(3*var(--base-type));
   font-family: 'Dela Gothic One', sans-serif;
