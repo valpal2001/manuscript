@@ -18,7 +18,7 @@ body {
 
 #abstract {
   	background-color: #ebebeb;
-	padding: 4rem;
+	padding: 4rem 6rem;
 	padding-bottom: 8rem;
 }
 
@@ -82,6 +82,12 @@ h5{
 	font-size: calc(5*var(--base-type));
 }
 
+b.author{
+	color: cadetblue;
+	font-size: 1.1rem;
+	font-weight: 700;
+}
+
 blockquote {
 	padding: 2rem;
 	font-weight: 700;
@@ -108,9 +114,7 @@ em{
 strong{
 	font-weight: 900;
 }
-b.author{
-	color: cadetblue;
-}
+
 
 .bold-start {
   font-size: calc(3*var(--base-type));
@@ -138,6 +142,12 @@ a:visited {
 	 margin-top: 5rem;
 	 margin-bottom: 3rem;
 	 padding-top: 3rem;
+}
+
+#institution {
+	font-style: italic;
+	font-weight: 800;
+	
 }
 
 #key-words{
