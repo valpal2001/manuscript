@@ -37,6 +37,7 @@ p.finale{
 	border-bottom: 2px solid var(--brand-color);
 	padding-bottom: 4rem;
 }
+
 h1 {
 	color: var(--brand-color);
 	font-size: calc(var(--title-type));
@@ -138,9 +139,7 @@ blockquote {
 }
 
 #about-author{
-	border-top: 2px solid var(--brand-color);
 	padding-top: 2rem;
-	border-bottom: 2px solid var(--brand-color);
 }
 
 em{
@@ -205,4 +204,8 @@ a:visited {
 #bibliography{
 	line-height: 180%;
 	list-style-type: decimal;
+}
+
+ol {
+  list-style-position: inside;
 }
