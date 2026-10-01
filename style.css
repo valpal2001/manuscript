@@ -18,8 +18,7 @@ body {
 
 #abstract {
   	background-color: #ebebeb;
-	padding: 4rem 6rem;
-	padding-bottom: 8rem;
+	padding: 2rem 6rem 6rem;
 }
 
 small {
@@ -89,7 +88,7 @@ b.author{
 }
 
 blockquote {
-	padding: 2rem;
+	padding: 3rem;
 	font-weight: 700;
 	text-align: center;
 	color: var(--brand-color);
