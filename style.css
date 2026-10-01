@@ -20,7 +20,9 @@ body {
 mark{
 	color:midnightblue;
 	font-weight: 800;
+	background-color: transparent;
 }
+
 small {
   font-size: 0.8rem;
   font-weight: 700;
