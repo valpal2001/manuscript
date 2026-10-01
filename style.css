@@ -96,6 +96,11 @@ h5{
 	position: sticky;
 	top: 2rem;
 	margin-left: auto;
+/*I wanted the margin to stick to the outsides of the body container but i did not know how to do it other than manually? like
+	margin-left: -20rem;
+	margin-right: -10rem;
+	but that's just me putting it on a specific spot on the screen and that's where the issue of screen sizes come in right
+	so i just stuck to margin-left:auto*/
 	background-color: rgba(255, 255, 255, 0.85);
 	fill-opacity: 50%;
 	margin-bottom: 2rem;
