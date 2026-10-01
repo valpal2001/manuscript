@@ -108,7 +108,7 @@ h5{
 	margin-right: -10rem;
 	but that's just me putting it on a specific spot on the screen and that's where the issue of screen sizes come in right
 	so i just stuck to margin-left:auto*/
-	background-color: rgba(255, 255, 255, 0.85);
+	background-color: #ffffffd9;
 	fill-opacity: 50%;
 	margin-bottom: 2rem;
 	z-index: 1000;
@@ -119,7 +119,7 @@ padding-bottom: 1rem;
 
 .cta-button{
 font-family: 'Dela Gothic One',sans-serif;
-font-size: rem;
+font-size: var(--base-type);
 line-height: 450%;
 color: cadetblue;
 --link-color:cadetblue;
@@ -132,6 +132,22 @@ text-align: right;
 display: inline-block;
 margin-left: 0.5rem;
 border-bottom: 0.2rem solid cadetblue;
+}
+
+.back-to-top {
+	font-family: 'Dela Gothic One', sans-serif;
+	font-size: var(--base-type);
+	line-height: 450%;
+	background-color: cadetblue;
+	color: white;
+	--link-color:white;
+	--link-visited-color:white;
+	padding: 0.5rem 2rem 0.5rem 2rem;
+	border: 0.2rem solid cadetblue;
+	position: sticky;
+	display: block;
+	width: max-content;
+	margin: 0 auto;
 }
 
 b.author{
@@ -212,4 +228,6 @@ ol {
 	list-style-type: decimal;
 }
 
-
+#legal{
+	color:var(--brand-color);
+}
